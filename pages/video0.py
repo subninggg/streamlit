@@ -11,7 +11,7 @@ with col1:
     st.video(video_bytes)
 with col2:
     st.write('분석 영상')
-    hiera_video_file = open('/home/vision/Capstone/video/hiera_video/ge_out21_hiera.mp4', 'rb')
+    hiera_video_file = open('https://youtu.be/Dan-UpqtzL4', 'rb')
     hiera_video_bytes = hiera_video_file.read()
 
     st.video(hiera_video_bytes)
