@@ -5,7 +5,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.write('원본 영상')
-    video_file = open('/home/vision/Capstone/video/video/ge_out21.mp4', 'rb')
+    video_file = open('https://youtu.be/Dan-UpqtzL4', 'rb')
     video_bytes = video_file.read()
 
     st.video(video_bytes)
