@@ -5,7 +5,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.write('원본 영상')
-    st.video('https://file.notion.so/f/f/28b7e521-0e53-4f97-b19b-3c7008fb8ca0/56953f95-95aa-494e-97f2-efc84cdda867/ge_out21.mp4?id=4a5c9c26-71cb-4736-bb35-c0a6f580d2a5&table=block&spaceId=28b7e521-0e53-4f97-b19b-3c7008fb8ca0&expirationTimestamp=1715680800000&signature=rNVjXp7O_MMxt7bQ4akgfvBsFicMAyjqE52rZSF5Blg&downloadName=ge_out21.mp4', format="video/mp4")
+    st.video('https://file.notion.so/f/f/28b7e521-0e53-4f97-b19b-3c7008fb8ca0/4432775d-f722-42c8-b0af-f81d813f4180/ge_out21.mp4?id=28941da6-e5ad-4f5e-a205-d22c87109c4f&table=block&spaceId=28b7e521-0e53-4f97-b19b-3c7008fb8ca0&expirationTimestamp=1715731200000&signature=djcA-wxd14BRK1ZDfNRAxV9YbNxmOpkpebhkal-mJ_g&downloadName=ge_out21.mp4', format="video/mp4")
 
 with col2:
     st.write('분석 영상')
