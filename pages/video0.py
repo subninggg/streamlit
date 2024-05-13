@@ -12,7 +12,7 @@ with col2:
     st.video('https://youtu.be/Dan-UpqtzL4?si=VfdQ9MRT4e7F2SH9', format="video/mp4")
 with col3:
     st.error('OUT')
-
+    st.page_link("pages/video0_sttran.py", label="video0_sttran")
 
 st.write('분석 과정')
 st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_out21_hiera.png')
