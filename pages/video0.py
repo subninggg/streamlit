@@ -15,4 +15,4 @@ with col3:
 
 
 st.write('분석 과정')
-#st.image('/home/vision/Capstone/video/hiera_image/ge_out21_hiera.png')
+st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_out21_hiera.png')
