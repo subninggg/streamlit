@@ -5,13 +5,13 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.write('원본 영상')
-    video_file = open('https://youtu.be/Dan-UpqtzL4', 'rb')
+    video_file = open('https://pixabay.com/videos/stars-long-exposure-starry-sky-6962/', 'rb')
     video_bytes = video_file.read()
 
     st.video(video_bytes)
 with col2:
     st.write('분석 영상')
-    hiera_video_file = open('https://youtu.be/Dan-UpqtzL4', 'rb')
+    hiera_video_file = open('https://pixabay.com/videos/stars-long-exposure-starry-sky-6962/', 'rb')
     hiera_video_bytes = hiera_video_file.read()
 
     st.video(hiera_video_bytes)
