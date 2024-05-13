@@ -5,7 +5,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.write('원본 영상')
-    st.video('https://file.notion.so/f/f/28b7e521-0e53-4f97-b19b-3c7008fb8ca0/4432775d-f722-42c8-b0af-f81d813f4180/ge_out21.mp4?id=28941da6-e5ad-4f5e-a205-d22c87109c4f&table=block&spaceId=28b7e521-0e53-4f97-b19b-3c7008fb8ca0&expirationTimestamp=1715731200000&signature=djcA-wxd14BRK1ZDfNRAxV9YbNxmOpkpebhkal-mJ_g&downloadName=ge_out21.mp4', format="video/mp4")
+    st.video('https://file.notion.so/f/f/28b7e521-0e53-4f97-b19b-3c7008fb8ca0/3f81b632-d650-497e-a920-815c6369a2de/ge_safe2.mp4?id=f40ae133-b4fb-4ad5-88a3-14c673dffd0c&table=block&spaceId=28b7e521-0e53-4f97-b19b-3c7008fb8ca0&expirationTimestamp=1715688000000&signature=N3g8qZnk3FXJL6GO5QX4cOnW8FRRaFBrn6rE-ny9yrs&downloadName=ge_safe2.mp4', format="video/mp4")
 
 with col2:
     st.write('분석 영상')
@@ -15,4 +15,4 @@ with col3:
     st.page_link("pages/video0_sttran.py", label="video0_sttran")
 
 st.write('분석 과정')
-st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_out21_hiera.png')
+st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_safe2_hiera.png')
