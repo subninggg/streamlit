@@ -31,16 +31,16 @@ video7 = "https://github.com/subninggg/streamlit/blob/main/capture/sb_out5_crop.
 video8 = "https://github.com/subninggg/streamlit/blob/main/capture/sb_out24_crop.png?raw=true"
 video9 = "https://github.com/subninggg/streamlit/blob/main/capture/sb_safe15_crop.png?raw=true"
 
-video0_link = "http://localhost:8501/video0"
-video1_link = "http://localhost:8501/video1"
-video2_link = "http://localhost:8501/video2"
-video3_link = "http://localhost:8501/video3"
-video4_link = "http://localhost:8501/video4"
-video5_link = "http://localhost:8501/video5"
-video6_link = "http://localhost:8501/video6"
-video7_link = "http://localhost:8501/video7"
-video8_link = "http://localhost:8501/video8"
-video9_link = "http://localhost:8501/video9"
+video0_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video0"
+video1_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video1"
+video2_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video2"
+video3_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video3"
+video4_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video4"
+video5_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video5"
+video6_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video6"
+video7_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video7"
+video8_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video8"
+video9_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video9"
 
 if option == "전체":
     df = pd.DataFrame(
