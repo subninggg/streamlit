@@ -9,7 +9,7 @@ with col1:
 
 with col2:
     st.write('분석 영상')
-    st.video('https://github.com/subninggg/streamlit/blob/main/jy_out4.gif?raw=true', format="video/mp4")
+    st.image('https://github.com/subninggg/streamlit/blob/main/jy_out4.gif?raw=true')
 with col3:
     st.error('OUT')
     st.page_link("pages/video0_sttran.py", label="판정 분석")
