@@ -9,7 +9,7 @@ with col1:
 
 with col2:
     st.write('분석 영상')
-    
+    st.video('https://file.notion.so/f/f/2abd79a2-2684-43c4-88e8-dff82ccba814/543732dd-1e51-42e0-abe9-b6a116fe06a5/jy_out4.mp4?id=e28a2c06-0390-4547-9f22-69e5f21b54a1&table=block&spaceId=2abd79a2-2684-43c4-88e8-dff82ccba814&expirationTimestamp=1715817600000&signature=iEkcQyxkDII7mxwbKt2EZ45LYXVHU_y0VOEKXJGkC78&downloadName=jy_out4.mp4', format="video/mp4")
 with col3:
     st.error('OUT')
     st.page_link("pages/video0_sttran.py", label="판정 분석")
