@@ -9,7 +9,7 @@ with col1:
 
 with col2:
     st.write('분석 영상')
-    st.video('https://file.notion.so/f/f/2abd79a2-2684-43c4-88e8-dff82ccba814/411bbb86-3484-43a1-b5b7-811a97a77001/%EC%A0%9C%EB%AA%A9_%EC%97%86%EB%8A%94_%EB%8F%99%EC%98%81%EC%83%81_-_Clipchamp%EB%A1%9C_%EC%A0%9C%EC%9E%91.mp4?id=36c646e4-77c7-4843-9fa6-8787048f3e68&table=block&spaceId=2abd79a2-2684-43c4-88e8-dff82ccba814&expirationTimestamp=1715817600000&signature=0mBIFH03NKGHa-LAQUd7n-yJUbyaev_FhW6svHD-W-I&downloadName=%EC%A0%9C%EB%AA%A9+%EC%97%86%EB%8A%94+%EB%8F%99%EC%98%81%EC%83%81+-+Clipchamp%EB%A1%9C+%EC%A0%9C%EC%9E%91.mp4', format="video/mp4")
+    st.video('https://github.com/subninggg/streamlit/blob/main/jy_out4.gif?raw=true', format="video/mp4")
 with col3:
     st.error('OUT')
     st.page_link("pages/video0_sttran.py", label="판정 분석")
