@@ -2,4 +2,4 @@ import streamlit as st
 
 st.write('분석 영상')
 st.write('분석 영상')
-st.video('https://file.notion.so/f/f/2abd79a2-2684-43c4-88e8-dff82ccba814/0296b0d3-38a0-4cd1-af82-a17c0db68778/ge_out21_hiera.mp4?id=e0cf9e81-396f-4bab-b838-0265b3425139&table=block&spaceId=2abd79a2-2684-43c4-88e8-dff82ccba814&expirationTimestamp=1715817600000&signature=K2Bvg6K1X29rN1jBpfcXHPSPHVkIJ-KRJapwG92OEdw&downloadName=ge_out21_hiera.mp4', format="video/mp4")
+st.video('https://file.notion.so/f/f/2abd79a2-2684-43c4-88e8-dff82ccba814/27452a33-5ebf-4e47-aed0-15db84d35c82/ge_out21_hiera.mp4?id=9d08bb7d-13d2-4c5b-96c1-6fba54290c1a&table=block&spaceId=2abd79a2-2684-43c4-88e8-dff82ccba814&expirationTimestamp=1715817600000&signature=vEaRUnxsr8N4sl8TMa9rAEENsfPv5OFIxw_VtQW-4G8&downloadName=ge_out21_hiera.mp4', format="video/mp4")
