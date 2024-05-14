@@ -9,7 +9,7 @@ with col1:
 
 with col2:
     st.write('분석 영상')
-    
+    st.video('https://file.notion.so/f/f/2abd79a2-2684-43c4-88e8-dff82ccba814/416394d8-a192-45a8-a996-8dbc8f457d15/TalkMedia_talkv_high.mp4.mp4?id=f0270979-25de-43dd-b0ff-9729222f25a2&table=block&spaceId=2abd79a2-2684-43c4-88e8-dff82ccba814&expirationTimestamp=1715817600000&signature=hAyAyxneVJabZFjjW-fALV6Qy9J1pSYMi5IQ9VJrcq8&downloadName=TalkMedia_talkv_high.mp4.mp4', format="video/mp4")
 with col3:
     st.error('OUT')
     st.page_link("pages/video0_sttran.py", label="판정 분석")
