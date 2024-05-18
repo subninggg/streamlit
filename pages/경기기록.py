@@ -7,7 +7,8 @@ st.header('경기 기록')
 
 option = st.selectbox(
     "요청팀",
-    ("전체", "LG 트윈스", "KT 위즈", "SSG 랜더스", "NC 다이노스", "두산 베어스", "KIA 타이거즈", "롯데 자이언츠", "삼성 라이온즈", "한화 이글스", "키움 히어로즈"))
+    ("전체", "LG 트윈스", "KT 위즈", "SSG 랜더스", "NC 다이노스", "두산 베어스", "KIA 타이거즈", "롯데 자이언츠", "삼성 라이온즈", "한화 이글스", "키움 히어로즈")
+)
 
 LG = "https://i.namu.wiki/i/Yh75KbIFHGxtCLOMIY9QO3PUpBU6BUPs7dx4_fGuSiWaM6jJ6pfjWDngyEHUQyhoURVdNFAQNM_lXQfhMCoOSNjIpuA-WHULjFjledIqzK0i13S8zEGl9qgPIZFMKtxAP8DyI_sEOAScBzq6IZyknQ.svg"
 KT = "https://i.namu.wiki/i/IoeA2ycVuhagoTIbSW0eQifxghZ5cwG-3_QuJVvzkaYUJ9cUMMT99eqyTGj4GlRoKFdXch62KQ2F5q5jjgW6EQ.svg"
@@ -60,6 +61,96 @@ if option == "LG 트윈스":
             "call": ["safe", "safe", "out", "out", "out", "safe"],
             "video": [video2, video4, video5, video6, video7, video9],
             "link" : [video2_link, video4_link, video5_link, video6_link, video7_link, video9_link]
+        }
+    )
+if option == "KT 위즈":
+    df = pd.DataFrame(
+        {
+            "home": [KIA, KT],
+            "away": [KT, 삼성],
+            "call": ["safe", "out"],
+            "video": [video1, video8],
+            "link" : [video1_link, video8_link]
+        }
+    )
+if option == "SSG 랜더스":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
+        }
+    )
+if option == "NC 다이노스":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
+        }
+    )
+if option == "두산 베어스":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
+        }
+    )
+if option == "KIA 타이거즈":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
+        }
+    )
+if option == "롯데 자이언츠":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
+        }
+    )
+if option == "삼성 라이온즈":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
+        }
+    )
+if option == "한화 이글스":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
+        }
+    )
+if option == "키움 히어로즈":
+    df = pd.DataFrame(
+        {
+            "home": [한화, KIA, KIA, 삼성, KIA, LG, 롯데, 롯데, KT, LG],
+            "away": [롯데, KT, LG, KIA, LG, 삼성, LG, LG, 삼성, KIA],
+            "call": ["out", "safe", "safe", "safe", "safe", "out", "out", "out", "out", "safe"],
+            "video": [video0, video1, video2, video3, video4, video5, video6, video7, video8, video9],
+            "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
         }
     )
 
