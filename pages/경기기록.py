@@ -43,6 +43,8 @@ video7_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video7"
 video8_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video8"
 video9_link = "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video9"
 
+df = None
+
 if option == "전체":
     df = pd.DataFrame(
         {
