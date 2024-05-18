@@ -17,7 +17,7 @@ with col1:
     st.image(한화)
 with col2:
     vs = "<div style='text-align:center'>VS</div>"
-    st.markdown(centered_text, unsafe_allow_html=True)
+    st.markdown(vs, unsafe_allow_html=True)
 with col3:
     st.image(롯데)
 
