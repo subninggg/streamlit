@@ -12,7 +12,8 @@ with col2:
     st.image('https://github.com/subninggg/streamlit/blob/main/hiera_gif/ge_out21_hiera.gif?raw=true')
 
 st.error('OUT')
-st.page_link("pages/video0_sttran.py", label="판정 분석")
 
 st.write('분석 과정')
 st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_out21_hiera.png')
+
+st.page_link("pages/video0_sttran.py", label="판정 분석")
