@@ -30,6 +30,15 @@ with col2:
     st.subheader('분석 영상')
     st.image('https://github.com/subninggg/streamlit/blob/main/hiera_gif/ge_out21_hiera.gif?raw=true')
 
+progress_text = "Please wait..."
+my_bar = st.progress(0, text=progress_text)
+
+for percent_complete in range(100):
+    time.sleep(0.01)
+    my_bar.progress(percent_complete + 1, text=progress_text)
+time.sleep(1)
+my_bar.empty()
+
 st.error('OUT')
 
 st.subheader('')
