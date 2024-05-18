@@ -124,23 +124,22 @@ if option == "한화 이글스":
 if option == "키움 히어로즈":
     st.image('https://github.com/subninggg/streamlit/blob/main/update_image/%ED%82%A4%EC%9B%80.png?raw=true')
 
-if df != None:
-    st.dataframe(
-        df,
-        column_config={
-            "home": st.column_config.ImageColumn(
-                "홈"
-            ),
-            "away": st.column_config.ImageColumn(
-                "원정"
-            ),
-            "call": "판정",
-            "video": st.column_config.ImageColumn(
-                "영상"
-            ),
-            "link": st.column_config.LinkColumn(
-                "링크",
-            )
-        },
-        hide_index=True,
-    )
+st.dataframe(
+    df,
+    column_config={
+        "home": st.column_config.ImageColumn(
+            "홈"
+        ),
+        "away": st.column_config.ImageColumn(
+            "원정"
+        ),
+        "call": "판정",
+        "video": st.column_config.ImageColumn(
+            "영상"
+        ),
+        "link": st.column_config.LinkColumn(
+            "링크",
+        )
+    },
+    hide_index=True,
+)
