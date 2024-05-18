@@ -34,6 +34,6 @@ st.error('OUT')
 
 st.subheader('')
 st.subheader('분석 과정')
-st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/sb_ou2=t24_hiera.png')
+st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/sb_ou24_hiera.png')
 
 st.page_link("pages/video8_sttran.py", label="판정 분석")
