@@ -55,6 +55,25 @@ if option == "전체":
             "link" : [video0_link, video1_link, video2_link, video3_link, video4_link, video5_link, video6_link, video7_link, video8_link, video9_link]
         }
     )
+    st.dataframe(
+        df,
+        column_config={
+            "home": st.column_config.ImageColumn(
+                "홈"
+            ),
+            "away": st.column_config.ImageColumn(
+                "원정"
+            ),
+            "call": "판정",
+            "video": st.column_config.ImageColumn(
+                "영상"
+            ),
+            "link": st.column_config.LinkColumn(
+                "링크",
+            )
+        },
+        hide_index=True,
+    )
 if option == "LG 트윈스":
     df = pd.DataFrame(
         {
@@ -65,6 +84,25 @@ if option == "LG 트윈스":
             "link" : [video2_link, video4_link, video5_link, video6_link, video7_link, video9_link]
         }
     )
+     st.dataframe(
+        df,
+        column_config={
+            "home": st.column_config.ImageColumn(
+                "홈"
+            ),
+            "away": st.column_config.ImageColumn(
+                "원정"
+            ),
+            "call": "판정",
+            "video": st.column_config.ImageColumn(
+                "영상"
+            ),
+            "link": st.column_config.LinkColumn(
+                "링크",
+            )
+        },
+        hide_index=True,
+    )
 if option == "KT 위즈":
     df = pd.DataFrame(
         {
@@ -74,6 +112,25 @@ if option == "KT 위즈":
             "video": [video1, video8],
             "link" : [video1_link, video8_link]
         }
+    )
+ st.dataframe(
+        df,
+        column_config={
+            "home": st.column_config.ImageColumn(
+                "홈"
+            ),
+            "away": st.column_config.ImageColumn(
+                "원정"
+            ),
+            "call": "판정",
+            "video": st.column_config.ImageColumn(
+                "영상"
+            ),
+            "link": st.column_config.LinkColumn(
+                "링크",
+            )
+        },
+        hide_index=True,
     )
 if option == "SSG 랜더스":
     st.image('https://github.com/subninggg/streamlit/blob/main/update_image/SSG.png?raw=true')
@@ -91,6 +148,25 @@ if option == "KIA 타이거즈":
             "link" : [video1_link, video2_link, video3_link, video4_link, video9_link]
         }
     )
+     st.dataframe(
+        df,
+        column_config={
+            "home": st.column_config.ImageColumn(
+                "홈"
+            ),
+            "away": st.column_config.ImageColumn(
+                "원정"
+            ),
+            "call": "판정",
+            "video": st.column_config.ImageColumn(
+                "영상"
+            ),
+            "link": st.column_config.LinkColumn(
+                "링크",
+            )
+        },
+        hide_index=True,
+    )
 if option == "롯데 자이언츠":
     df = pd.DataFrame(
         {
@@ -100,6 +176,25 @@ if option == "롯데 자이언츠":
             "video": [video0, video6, video7],
             "link" : [video0_link, video6_link, video7_link]
         }
+    )
+ st.dataframe(
+        df,
+        column_config={
+            "home": st.column_config.ImageColumn(
+                "홈"
+            ),
+            "away": st.column_config.ImageColumn(
+                "원정"
+            ),
+            "call": "판정",
+            "video": st.column_config.ImageColumn(
+                "영상"
+            ),
+            "link": st.column_config.LinkColumn(
+                "링크",
+            )
+        },
+        hide_index=True,
     )
 if option == "삼성 라이온즈":
     df = pd.DataFrame(
@@ -111,6 +206,25 @@ if option == "삼성 라이온즈":
             "link" : [video3_link, video5_link, video8_link]
         }
     )
+ st.dataframe(
+        df,
+        column_config={
+            "home": st.column_config.ImageColumn(
+                "홈"
+            ),
+            "away": st.column_config.ImageColumn(
+                "원정"
+            ),
+            "call": "판정",
+            "video": st.column_config.ImageColumn(
+                "영상"
+            ),
+            "link": st.column_config.LinkColumn(
+                "링크",
+            )
+        },
+        hide_index=True,
+    )
 if option == "한화 이글스":
     df = pd.DataFrame(
         {
@@ -121,25 +235,24 @@ if option == "한화 이글스":
             "link" : [video0_link]
         }
     )
+     st.dataframe(
+        df,
+        column_config={
+            "home": st.column_config.ImageColumn(
+                "홈"
+            ),
+            "away": st.column_config.ImageColumn(
+                "원정"
+            ),
+            "call": "판정",
+            "video": st.column_config.ImageColumn(
+                "영상"
+            ),
+            "link": st.column_config.LinkColumn(
+                "링크",
+            )
+        },
+        hide_index=True,
+    )
 if option == "키움 히어로즈":
     st.image('https://github.com/subninggg/streamlit/blob/main/update_image/%ED%82%A4%EC%9B%80.png?raw=true')
-
-st.dataframe(
-    df,
-    column_config={
-        "home": st.column_config.ImageColumn(
-            "홈"
-        ),
-        "away": st.column_config.ImageColumn(
-            "원정"
-        ),
-        "call": "판정",
-        "video": st.column_config.ImageColumn(
-            "영상"
-        ),
-        "link": st.column_config.LinkColumn(
-            "링크",
-        )
-    },
-    hide_index=True,
-)
