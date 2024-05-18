@@ -12,7 +12,7 @@ KIA = "https://i.namu.wiki/i/ZBYDIg8lFfcrlUsHc8IMVjb6sOVrbE53fH4tvqEfvFDX3Juzn8T
 한화 = "https://i.namu.wiki/i/LZYPjPbsbObem4ZvCJDSLoeOd6p3FLIRWLCdcnOK4o7K3_NRha0lhuIpEL4aEjbyYn7uNOR_xAspX2GVI1BFrlr7spl8wiTGanh-HhSzWM9qynLRq_7DeAdsM3MBPqKKYwswMAN11QvscE4-NI6Z2A.svg"
 키움 = "https://i.namu.wiki/i/j4a8flSMkAGfrduLvHBnJn7aRSr1STWsyTQ_XpQB-bmflDtaie75yTrISEiso1mBmmvARidtvLkbNZzJhB7TPIO2OB8n20FJKyKlF2U2QDvrUPZQeGJ69KgoJj7zHAEHuyElN7UdIUTFVos6b5e9LQ.svg"
 
-col1, col2, col3, col4, col5 = st.columns(4)
+col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     st.image(한화)
 with col2:
