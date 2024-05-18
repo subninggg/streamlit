@@ -13,6 +13,7 @@ with col2:
 
 st.error('OUT')
 
+st.subheader('')
 st.subheader('분석 과정')
 st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_out21_hiera.png')
 
