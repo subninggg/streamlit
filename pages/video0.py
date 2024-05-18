@@ -16,7 +16,8 @@ col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.image(한화)
 with col2:
-    st.header('VS')
+    vs = "<div style='text-align:center'>VS</div>"
+    st.markdown(centered_text, unsafe_allow_html=True)
 with col3:
     st.image(롯데)
 
