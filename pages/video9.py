@@ -5,14 +5,14 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.write('원본 영상')
-    st.video('https://file.notion.so/f/f/28b7e521-0e53-4f97-b19b-3c7008fb8ca0/4432775d-f722-42c8-b0af-f81d813f4180/ge_out21.mp4?id=28941da6-e5ad-4f5e-a205-d22c87109c4f&table=block&spaceId=28b7e521-0e53-4f97-b19b-3c7008fb8ca0&expirationTimestamp=1715731200000&signature=djcA-wxd14BRK1ZDfNRAxV9YbNxmOpkpebhkal-mJ_g&downloadName=ge_out21.mp4', format="video/mp4")
+    st.image('https://github.com/subninggg/streamlit/blob/main/video_gif/sb_safe15.gif?raw=true')
 
 with col2:
     st.write('분석 영상')
-    st.video('https://youtu.be/Dan-UpqtzL4?si=VfdQ9MRT4e7F2SH9', format="video/mp4")
+    st.image('https://github.com/subninggg/streamlit/blob/main/hiera_gif/sb_safe15_hiera.gif?raw=true')
 with col3:
     st.error('OUT')
-    st.page_link("pages/video0_sttran.py", label="video0_sttran")
+    st.page_link("pages/video9_sttran.py", label="판정 분석")
 
 st.write('분석 과정')
-st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_out21_hiera.png')
+st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/sb_safe15_hiera.png')
