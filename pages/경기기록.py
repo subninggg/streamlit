@@ -84,7 +84,7 @@ if option == "LG 트윈스":
             "link" : [video2_link, video4_link, video5_link, video6_link, video7_link, video9_link]
         }
     )
-     st.dataframe(
+    st.dataframe(
         df,
         column_config={
             "home": st.column_config.ImageColumn(
@@ -113,7 +113,7 @@ if option == "KT 위즈":
             "link" : [video1_link, video8_link]
         }
     )
- st.dataframe(
+    st.dataframe(
         df,
         column_config={
             "home": st.column_config.ImageColumn(
@@ -148,7 +148,7 @@ if option == "KIA 타이거즈":
             "link" : [video1_link, video2_link, video3_link, video4_link, video9_link]
         }
     )
-     st.dataframe(
+    st.dataframe(
         df,
         column_config={
             "home": st.column_config.ImageColumn(
@@ -177,7 +177,7 @@ if option == "롯데 자이언츠":
             "link" : [video0_link, video6_link, video7_link]
         }
     )
- st.dataframe(
+    st.dataframe(
         df,
         column_config={
             "home": st.column_config.ImageColumn(
@@ -206,7 +206,7 @@ if option == "삼성 라이온즈":
             "link" : [video3_link, video5_link, video8_link]
         }
     )
- st.dataframe(
+    st.dataframe(
         df,
         column_config={
             "home": st.column_config.ImageColumn(
@@ -235,7 +235,7 @@ if option == "한화 이글스":
             "link" : [video0_link]
         }
     )
-     st.dataframe(
+    st.dataframe(
         df,
         column_config={
             "home": st.column_config.ImageColumn(
