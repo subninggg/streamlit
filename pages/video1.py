@@ -11,7 +11,7 @@ with col2:
     st.subheader('분석 영상')
     st.image('https://github.com/subninggg/streamlit/blob/main/hiera_gif/ge_safe2_hiera.gif?raw=true')
 
-st.error('OUT')
+st.success('SAFE')
 
 st.subheader('')
 st.subheader('분석 과정')
