@@ -7,6 +7,7 @@ st.header('태그 판정')
 option = st.selectbox(
     "판정",
     ("전체", "OUT", "SAFE")
+)
 
 LG = "https://i.namu.wiki/i/Yh75KbIFHGxtCLOMIY9QO3PUpBU6BUPs7dx4_fGuSiWaM6jJ6pfjWDngyEHUQyhoURVdNFAQNM_lXQfhMCoOSNjIpuA-WHULjFjledIqzK0i13S8zEGl9qgPIZFMKtxAP8DyI_sEOAScBzq6IZyknQ.svg"
 KT = "https://i.namu.wiki/i/IoeA2ycVuhagoTIbSW0eQifxghZ5cwG-3_QuJVvzkaYUJ9cUMMT99eqyTGj4GlRoKFdXch62KQ2F5q5jjgW6EQ.svg"
