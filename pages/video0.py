@@ -16,7 +16,7 @@ col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     st.image(한화)
 with col2:
-    st.image('https://w7.pngwing.com/pngs/740/843/png-transparent-vs-showdown-competition-ultimate-pk-thumbnail.png')
+    st.image('https://st4.depositphotos.com/1404656/30086/v/450/depositphotos_300867228-stock-illustration-versus-sign-black-and-white.jpg')
 with col3:
     st.image(롯데)
 
