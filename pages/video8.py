@@ -30,10 +30,6 @@ with col2:
     st.subheader('분석 영상')
     st.image('https://github.com/subninggg/streamlit/blob/main/hiera_gif/sb_out24_hiera.gif?raw=true')
 
-st.subheader('')
-st.subheader('분석 과정')
-st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/sb_out24_hiera.png')
-
 progress_text = "Please wait..."
 my_bar = st.progress(0, text=progress_text)
 
@@ -44,5 +40,9 @@ time.sleep(1)
 my_bar.empty()
 
 st.error('OUT')
+
+st.subheader('')
+st.subheader('분석 과정')
+st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/sb_out24_hiera.png')
 
 st.page_link("pages/video8_sttran.py", label="판정 분석")
