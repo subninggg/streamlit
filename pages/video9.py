@@ -45,4 +45,8 @@ st.subheader('')
 st.subheader('분석 과정')
 st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/sb_safe15_hiera.png')
 
-st.page_link("pages/video9_sttran.py", label="판정 분석")
+col1, col2, col3, col4, col5 = st.columns(5)
+with col1:
+    st.page_link("pages/video5_sttran.py", label="판정 분석")
+with col5:
+    st.page_link("pages/경기기록.py", label="경기 기록")
