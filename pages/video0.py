@@ -46,3 +46,4 @@ st.subheader('분석 과정')
 st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_out21_hiera.png')
 
 st.page_link("pages/video0_sttran.py", label="판정 분석")
+st.page_link("pages/경기 기록.py", label="경기 기록")
