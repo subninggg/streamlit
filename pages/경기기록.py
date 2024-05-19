@@ -2,7 +2,7 @@ import streamlit as st
 import datetime
 import pandas as pd
 
-st.title('LSK 2024')
+st.title('엘삼기 태그 아웃/세이프 판정 센터')
 st.header('경기 기록')
 
 option = st.selectbox(
