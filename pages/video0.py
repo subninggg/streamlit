@@ -47,6 +47,6 @@ st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image
 
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-    st.page_link("pages/video0_sttran.py", label=">> 판정 분석")
+    st.page_link("pages/video0_sttran.py", label="\>\> 판정 분석")
 with col5:
-    st.page_link("home.py", label=">> 경기 기록")
+    st.page_link("home.py", label="\>\> 경기 기록")
