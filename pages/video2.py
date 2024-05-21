@@ -47,6 +47,6 @@ st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image
 
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    st.link_button("다른 영상 보러가기", "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/")
+    st.link_button("다른 영상 보러 가기", "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/")
 with col4:
-    st.link_button("판정 분석 보러가기", "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video2_sttran")
+    st.link_button("판정 분석 보러 가기", "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video2_sttran")
