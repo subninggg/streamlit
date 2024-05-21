@@ -11,7 +11,7 @@ option = st.selectbox(
 )
 
 LG = "https://i.namu.wiki/i/Yh75KbIFHGxtCLOMIY9QO3PUpBU6BUPs7dx4_fGuSiWaM6jJ6pfjWDngyEHUQyhoURVdNFAQNM_lXQfhMCoOSNjIpuA-WHULjFjledIqzK0i13S8zEGl9qgPIZFMKtxAP8DyI_sEOAScBzq6IZyknQ.svg"
-KT = "https://i.namu.wiki/i/IoeA2ycVuhagoTIbSW0eQifxghZ5cwG-3_QuJVvzkaYUJ9cUMMT99eqyTGj4GlRoKFdXch62KQ2F5q5jjgW6EQ.svg"
+KT = "https://content.sportslogos.net/logos/84/6733/full/4695__kt_wiz-primary-2015.png"
 SSG = "https://i.namu.wiki/i/Ra9t9Odu4mKHO3ejR5jRuHQ0340POkoIb91c8wfoc4hqUbVI9bsqfEpcpGuz4HxR1d4ZgXGnhR6WPrGaMMqVPA6UvpK3Hm7lFpZ7hBIyjhJymUC7k2133SnSijKa8pLrrTMXohDnJkJ3KhqRavEPZw.svg"
 NC =  "https://i.namu.wiki/i/3SxNn4aK1kpu4s4fvUYCUV5qRzPl3UqbkfBjChTGQKQzz8Ig3Ek7b0uZU-Vj4N7HMuTvuGO2lPIcr4j5y2ipK2e9RRLXC3zcyqFCbD_MU5ccH6RRL1mYl5WW6uVL6mbfp2O3OUnWQGfISECUFx559g.svg"
 두산 = "https://i.namu.wiki/i/BFXATOQ-PRPa5eh2Xh0gEg76MRpufIwtSF8FDT8lykHKUpslrULXZUDZH9XTaup70kLQjacri-uVJdAbBL2AtaLJj9ADIuGcUq1AJQFzbNVULvdgoO-6LazsELU3Y_ioUM08skY7bK-bjxDpnTe-VA.svg"
