@@ -45,8 +45,8 @@ st.subheader('')
 st.subheader('분석 과정')
 st.image('https://raw.githubusercontent.com/subninggg/streamlit/main/hiera_image/ge_safe2_hiera.png')
 
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3 = st.columns(3)
 with col1:
     st.link_button("판정 분석 보러가기", "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/video1_sttran")
-with col6:
+with col3:
     st.link_button("다른 영상 보러가기", "https://homepy-wgogeawchtyohpnvkzfyzx.streamlit.app/")
